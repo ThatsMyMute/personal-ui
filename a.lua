@@ -17,7 +17,8 @@ local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 
 local blackmoon = Instance.new("ImageLabel")
-blackmoon.Image = "rbx:assetid//16885672782"
+blackmoon.Parent = game.CoreGui.Rayfield
+blackmoon.Image = "http://www.roblox.com/asset/?id=16885672782"
 
 local RayfieldLibrary = {
 	Flags = {},
